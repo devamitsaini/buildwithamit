@@ -411,7 +411,7 @@ export default function App() {
         <div className="sm:hidden absolute left-1/2 top-[62%] -translate-x-1/2 -translate-y-1/2 z-10">
           <Magnet padding={150} strength={3}>
             <img
-              src="/public/images/amit.PNG"
+              src="/images/amit.PNG"
               alt="amit"
               className="rounded-3xl object-cover"
               style={{
