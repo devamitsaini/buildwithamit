@@ -1,7 +1,7 @@
 export const SITE = {
   name: 'Amit Saini',
-  title: 'Amit Saini — Web Developer Portfolio',
-  shortTitle: 'Amit — Web Developer',
+  title: 'Amit Saini | Web Developer Portfolio',
+  shortTitle: 'Amit | Web Developer',
   description:
     'Amit Saini is a web developer crafting fast, modern, and engaging digital experiences for businesses and startups in India. Frontend, full stack, and UI implementation.',
   email: 'workwithamitsaini@gmail.com',
