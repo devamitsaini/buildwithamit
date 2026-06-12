@@ -400,7 +400,7 @@ export default function App() {
               alt="amit"
               className="rounded-3xl object-cover"
               style={{
-                width: 'clamp(280px, 50vw, 520px)',
+                width: '420px',
                 height: 'auto',
               }}
             />
