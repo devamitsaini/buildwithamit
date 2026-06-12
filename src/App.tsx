@@ -342,7 +342,7 @@ export default function App() {
       {/* ================================================================= */}
       {/* HERO SECTION */}
       {/* ================================================================= */}
-      <section aria-label="Home" className="h-screen flex flex-col overflow-x-clip relative bg-[#0C0C0C]">
+      <section aria-label="Home" className="min-h-screen flex flex-col overflow-x-clip relative bg-[#0C0C0C]">
         {/* Navbar */}
         <FadeIn delay={0} y={-20} as="nav" className="flex justify-between items-center px-6 md:px-10 pt-6 md:pt-8">
           <div className="flex justify-between w-full text-[#D7E2EA] font-medium uppercase tracking-wider text-sm md:text-lg lg:text-[1.4rem]">
