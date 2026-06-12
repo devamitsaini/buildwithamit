@@ -396,7 +396,7 @@ export default function App() {
         <FadeIn delay={0.6} y={30} className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 hidden sm:block">
           <Magnet padding={150} strength={3} activeTransition="transform 0.3s ease-out" inactiveTransition="transform 0.6s ease-in-out">
             <img
-              src="https://i.ibb.co/Hfh1Dv6Q/Chat-GPT-Image-Jun-12-2026-04-43-16-PM-removebg-preview.png"
+              src="/public/images/amit.PNG"
               alt="amit"
               className="rounded-3xl object-cover"
               style={{
