@@ -396,7 +396,7 @@ export default function App() {
         <FadeIn delay={0.6} y={30} className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 hidden sm:block">
           <Magnet padding={150} strength={3} activeTransition="transform 0.3s ease-out" inactiveTransition="transform 0.6s ease-in-out">
             <img
-              src="/public/images/amit.PNG"
+              src="/images/amit.PNG"
               alt="amit"
               className="rounded-3xl object-cover"
               style={{

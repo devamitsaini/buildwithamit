@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://amitsaini.dev/sitemap.xml
+Sitemap: https://buildwithamit.vercel.app/sitemap.xml
