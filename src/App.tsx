@@ -362,12 +362,14 @@ export default function App() {
         </FadeIn>
 
         {/* Hero Heading */}
-        <div className="pt-16 sm:flex-1 sm:flex sm:items-center sm:justify-center overflow-hidden">
+        <div className="flex-1 flex items-center justify-center overflow-hidden">
           <FadeIn delay={0.15} y={40} className="w-full">
             <h1
             className="hero-heading font-black uppercase tracking-tight leading-none w-full text-center text-[18vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw]"
             >
-             HI, I'M AMIT
+             HI, I'M
+    
+             AMIT
             </h1>
           </FadeIn>
         </div>
@@ -405,7 +407,7 @@ export default function App() {
         </FadeIn>
 
         {/* Mobile Portrait */}
-        <div className="sm:hidden absolute left-1/2 top-[58%] -translate-x-1/2 -translate-y-1/2 z-10">  
+        <div className="sm:hidden absolute left-1/2 top-[72%] -translate-x-1/2 -translate-y-1/2 z-10">
           <Magnet padding={150} strength={3}>
             <img
               src="/images/amit.PNG"
