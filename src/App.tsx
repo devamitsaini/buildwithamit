@@ -411,7 +411,7 @@ export default function App() {
         <div className="sm:hidden absolute left-1/2 top-[62%] -translate-x-1/2 -translate-y-1/2 z-10">
           <Magnet padding={150} strength={3}>
             <img
-              src="https://i.ibb.co/Hfh1Dv6Q/Chat-GPT-Image-Jun-12-2026-04-43-16-PM-removebg-preview.png"
+              src="/public/images/amit.PNG"
               alt="amit"
               className="rounded-3xl object-cover"
               style={{
