@@ -344,7 +344,7 @@ export default function App() {
       {/* ================================================================= */}
       <section aria-label="Home" className="min-h-screen flex flex-col overflow-x-clip relative bg-[#0C0C0C]">
         {/* Navbar */}
-        <FadeIn delay={0} y={-20} as="nav" className="flex justify-between items-center px-6 md:px-10 pt-6 md:pt-8">
+        <FadeIn delay={0} y={-20} as="nav" className="flex justify-between items-center px-6 md:px-10 pt-4 sm:pt-6 md:pt-8">
           <div className="flex justify-between w-full text-[#D7E2EA] font-medium uppercase tracking-wider text-sm md:text-lg lg:text-[1.4rem]">
             <a href="#about" className="transition-opacity duration-200 hover:opacity-70">
               About
@@ -362,7 +362,7 @@ export default function App() {
         </FadeIn>
 
         {/* Hero Heading */}
-        <div className="flex-1 flex items-center justify-center overflow-hidden">
+        <div className="flex-1 flex items-center justify-center overflow-hidden py-4 sm:py-0">
           <FadeIn delay={0.15} y={40} className="w-full">
             <h1
             className="hero-heading font-black uppercase tracking-tight leading-none w-full text-center text-[18vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw]"
