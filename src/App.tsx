@@ -367,9 +367,7 @@ export default function App() {
             <h1
             className="hero-heading font-black uppercase tracking-tight leading-none w-full text-center text-[18vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw]"
             >
-             HI, I'M
-    
-             AMIT
+             HI, I'M AMIT
             </h1>
           </FadeIn>
         </div>
@@ -399,8 +397,8 @@ export default function App() {
               alt="amit"
               className="rounded-3xl object-cover"
               style={{
-                width: '420px',
-                height: 'auto',
+              width: 'clamp(250px, 30vw, 380px)',
+              height: 'auto',
               }}
             />
           </Magnet>
@@ -414,8 +412,8 @@ export default function App() {
               alt="amit"
               className="rounded-3xl object-cover"
               style={{
-                width: '280px',
-                height: 'auto',
+              width: 'clamp(180px, 55vw, 240px)',
+              height: 'auto',
               }}
             />
           </Magnet>
