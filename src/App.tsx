@@ -365,12 +365,11 @@ export default function App() {
         <div className="flex-1 flex items-center justify-center overflow-hidden">
           <FadeIn delay={0.15} y={40} className="w-full">
             <h1
-              className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center"
-              style={{
-                fontSize: 'clamp(14vw, 15vw, 17.5vw)',
-              }}
+            className="hero-heading font-black uppercase tracking-tight leading-none w-full text-center text-[18vw] sm:text-[15vw] md:text-[16vw] lg:text-[17.5vw]"
             >
-              Hi, i&apos;m amit
+             HI, I'M
+    
+             AMIT
             </h1>
           </FadeIn>
         </div>
@@ -408,7 +407,7 @@ export default function App() {
         </FadeIn>
 
         {/* Mobile Portrait */}
-        <div className="sm:hidden absolute left-1/2 top-[62%] -translate-x-1/2 -translate-y-1/2 z-10">
+        <div className="sm:hidden absolute left-1/2 top-[72%] -translate-x-1/2 -translate-y-1/2 z-10">
           <Magnet padding={150} strength={3}>
             <img
               src="/images/amit.PNG"
